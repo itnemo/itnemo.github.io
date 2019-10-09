@@ -1,9 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>itNemo Corporation</title>
-</head>
-<body>
-	<h1>it's site work!</h1>
-</body>
+<html lang="en" dir="ltr">
+	<head>
+
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<meta charset="utf-8">
+		<title>itNemo</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	</head>
+
+	<body>
+
+		<div id="app">
+			<button v-on:click="show = !show">Показать / Скрить</button> <!-- show = !show-->
+			<p v-if="show">`(*>﹏<*)′</p>
+		</div>
+
+	</body>
+
+	<script src="js/main.js"></script>
+
 </html>
