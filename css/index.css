@@ -1,5 +1,12 @@
 /* colors : #574c4f , #343233 , #efdab9 */
 
 body {
-	/* background-color: #343233; */
+	background-color: #343233;
+}
+
+
+
+#nav-panel{
+  color: white;
+  font-size: 15px;
 }
